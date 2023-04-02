@@ -1,0 +1,20 @@
+// Миксины
+@mixin text($c, $ff, $fz, $fw, $lh: $lh, $ls) {
+  color: $c;
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: $fw;
+  line-height: $lh;
+  letter-spacing: $ls;  
+}
+@mixin button($bg, $bs, $bc, $br, $h, $w) {
+  background-color: $bg;
+  border: $bs solid $bc;
+  border-radius: $br;
+  // color: $c;
+  // font-family: $ff;
+  // font-size: $fz;
+  // font-weight: $fw;
+  height: $h;
+  width: $w;
+}

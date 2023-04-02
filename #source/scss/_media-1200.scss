@@ -1,0 +1,153 @@
+// @media 642
+@media (max-width: 1200px) {
+  .container {
+    max-width: 642px;
+  }
+  .header {
+    background-image: url(../images/header-fon2.jpg);
+  }
+  .header__logo {
+    margin-right: 18px;
+  }
+  .menu__link {
+    padding: 3px 5px;
+  }
+  .menu__link:hover {
+    border-bottom: none;
+  }
+  .offer .link {
+    padding: 10px 0;
+    padding-left: 35px;
+    padding-right: 28px;
+    //border-bottom: none;
+    //@extend %text-offer-button;
+  }
+  .phone__link {
+    white-space: nowrap;
+  }
+  .offer__text {
+    font-size: $fz-49;
+  }
+  .section-1 {
+    background-image: none;
+    height: 1195px;
+    padding-bottom: 100px;
+    padding-top: 90px;
+  }
+  .features__title {
+    margin-bottom: 55px;
+  }
+  .grid__body {
+    display: grid;
+    grid-template-columns: 306px 306px;
+    grid-template-rows: 100px 100px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+  }
+  .grid__item:nth-child(1),
+  .grid__item:nth-child(2),
+  .grid__item:nth-child(3),
+  .grid__item:nth-child(4),
+  .grid__item:nth-child(5) {
+    background-image: none;
+    padding: 0;
+  }
+  .tecnologies {
+    margin-top: 82px;
+  }
+  .tecnologies__tabs {
+    margin-top: 55px;
+  }
+  .section-2 {
+    //height: 890px;
+  }
+  .rates__title {
+    margin-bottom: 40px;
+  }
+  .slider {
+  }
+  .slider__items {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 100%;
+  }
+  .slider__item {
+    position: absolute;
+    height: 600px;
+    top: 0;
+    //left: calc((100vw - 1200px)/2);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1230px;
+  }
+  .slider__line-bottom {
+    border-bottom: 1px solid $bc-8-bdbec3;
+  }
+  .slider__line {
+    bottom: 0;
+    position: relative;
+    height: 38px;
+    left: 0;
+    width: 542px;
+  }
+  .slider__change {
+    position: absolute;
+    bottom: 0;
+    background-color: $bc-6-6fb1c8;
+    height: 3px;
+    width: 100px;
+  }
+  .rates__inner {
+    height: 100%;
+    //padding-bottom: 53px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 1200px;
+  }
+  .rates {
+  }
+  .rate {
+    margin-right: 30px;
+  }
+  .rate:last-child {
+    margin-right: 0;
+  }
+  .section-3 {
+    height: 856px;
+  }
+  .areas__left {
+    padding-bottom: 50px;
+  }
+  .areas__right {
+    left: calc((100vw - 642px) / 2);
+    top: 410px;
+  }
+  .areas__map {
+    width: 100vw;
+  }
+  .connection {
+    //height: 774px;
+    padding-bottom: 90px;
+  }
+  // .connection__inner
+  .connection__inner {
+    flex-direction: column-reverse;
+    justify-content: start;
+    //align-items: space-between;
+    // height: 515px;
+  }
+  // .connection__contacts
+  .connection__contacts {
+    width: 270px;
+  }
+  // .connection__application
+  .connection__application {
+    margin-bottom: 50px;
+    width: 370px;
+  }
+  .section-4 {
+    background-position: left calc((100vw - 642px) / 2 + 430px) bottom;
+  }
+}

@@ -1,0 +1,83 @@
+// Шаблоны
+%text-body {
+  @include text($c-3-081325, $ff-Sr, $fz-16, $fw-Sr, $lh-16, $ls-20);
+}
+%text-header-menu-link {
+  @include text($c-2-fafafb, $ff-Ssb, $fz-16, $fw-Ssb, $lh-16, $ls-20);
+}
+%text-header-phone {
+  @include text($c-1-fcfafa, $ff-Sr, $fz-16, $fw-Sr, $lh-16, $ls-20);
+}
+%text-offer-title {
+  @include text($c-1-fcfafa, $ff-Sl, $fz-16, $fw-Sl, $lh-16, $ls-140);
+}
+%text-offer-text {
+  @include text($c-1-fcfafa, $ff-Sb, $fz-54, $fw-Sb, $lh-68, $ls-20);
+}
+%text-offer-trigger {
+  @include text($c-1-fcfafa, $ff-Sr, $fz-16, $fw-Sr, $lh-40, $ls-20);
+  //@include text($c-3-081325, $ff-Sr, $fz-16, $fw-Sr, $lh-22, $ls-20);
+}
+%button-offer {
+  @include button($bg-12-28-0, 2px, $bc-1-fff, 15px, 50px, 170px);
+}
+%text-offer-button {
+  @include text($c-1-fcfafa, $ff-Sbl, $fz-16, $fw-Sbl, $lh-22, $ls-80);
+}
+%text-title {
+  @include text($c-3-081325, $ff-Sb, $fz-35, $fw-Sb, $lh-34, $ls-20);
+}
+%text-block-title {
+  @include text($c-4-084a82, $ff-Sb, $fz-23, $fw-Sb, $lh-22, $ls-20);
+}
+%text-block-text {
+  @include text($c-3-081325, $ff-Sr, $fz-15, $fw-Sr, $lh-22, $ls-20);
+}
+%text-trigger {
+  @include text($c-3-081325, $ff-Sb, $fz-23, $fw-Sb, $lh-22, $ls-20);
+}
+%text-content {
+  @include text($c-3-081325, $ff-Ssb, $fz-15, $fw-Ssb, $lh-22, $ls-20);
+}
+%text-rate-title {
+  @include text($c-4-084a82, $ff-Sb, $fz-25, $fw-Sb, $lh-22, $ls-20);
+}
+%text-rate-price {
+  @include text($c-3-081325, $ff-Sb, $fz-20, $fw-Sb, $lh-22, $ls-20);
+}
+%button-rate {
+  @include button($bg-3-66a5fe, 0px, $bc-1-fff, 15px, 50px, 194px);
+}
+%text-rate-button {
+  @include text($c-6-fff, $ff-Sbl, $fz-16, $fw-Sbl, $lh-22, $ls-80);
+}
+%text-rate-triggers-text {
+  @include text($c-3-081325, $ff-Sr, $fz-16, $fw-Sr, $lh-22, $ls-20);
+}
+%text-rate-triggers-hidden {
+  @include text($c-7-858890, $ff-Sr, $fz-13, $fw-Sr, $lh-19, $ls-20);
+}
+%text-form-placeholder {
+  @include text($c-8-6f737b, $ff-Sr, $fz-15, $fw-Sr, $lh-68, $ls-20);
+}
+%text-triggers-areas {
+  @include text($c-3-081325, $ff-Sr, $fz-15, $fw-Sr, $lh-16, $ls-20);
+}
+%text-title-contacts {
+  @include text($c-3-081325, $ff-Sb, $fz-23, $fw-Sb, $lh-22, $ls-20);
+}
+%text-contacts-triggers-text {
+  @include text($c-3-081325, $ff-Ssb, $fz-15, $fw-Ssb, $lh-22, $ls-20);
+}
+%button-input-button {
+  @include button($bg-10-deecff, 2px, $bc-5-000, 15px, 50px, 100%);
+}
+%text-input-button {
+  @include text($c-3-081325, $ff-Sbl, $fz-15, $fw-Sbl, $lh-22, $ls-80);
+}
+%text-footer-copy {
+  @include text($c-10-5d636d, $ff-Sbl, $fz-15, $fw-Sbl, $lh-22, $ls-80);
+}
+%text-footer-phone {
+  @include text($c-11-9ea4ac, $ff-Sr, $fz-16, $fw-Sr, $lh-15, $ls-20);
+}
